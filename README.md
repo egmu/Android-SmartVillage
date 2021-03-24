@@ -1,12 +1,14 @@
  <div align="center">
  <h1 align="center">Android Project : SmartVillage-Now-Android </h1>
+ 	<p align="center">
+  <a href="https://github.com/egmu"><img title="Author" src="https://img.shields.io/badge/Author-EGMU-red.svg?style=for-the-badge&logo=github" /></a>
+</p>
     <br>
 </p>
 </div>
 
 ![image.png](/4.png)
-<p align="center">
-  <a href="https://github.com/egmu"><img title="Author" /></a>
+
 # Instalasi
 ## 💻 Clone Repo
 ```bash
@@ -20,7 +22,7 @@
 ```
 # Requirements
 * [Android Studio](https://developer.android.com/studio)
-* Any android editor
+* Any android text editor
 
 # API
 * [API](https://github.com/egmu/SmartVillage-Now.git)
