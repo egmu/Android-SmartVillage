@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    >
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="10dp"
+    android:layout_marginBottom="10dp"
+    >
+
+    <LinearLayout
+        android:id="@+id/layout_pembangunan"
+        android:layout_width="match_parent"
+        android:layout_height="297dp"
+        android:orientation="vertical"
+        android:padding="1dp">
+
+        <TextView
+            android:id="@+id/nama_pembangunan"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:text="JEMBATAN SURAMADU"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/gambar_pembangunan"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/suramadu3"
+            />
+
+        <TextView
+            android:id="@+id/nama_mitra"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="15dp"
+            android:text="CV Mitra Sejati"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15dp"
+            android:textStyle="italic" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10">
+
+            <TextView
+                android:id="@+id/start_pembangunan"
+                android:layout_width="170dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="9"
+                android:drawableLeft="@drawable/ic_calendar"
+                android:gravity="left"
+                android:text="start from october 10"
+                android:textColor="@color/darkgrey" />
+
+            <TextView
+                android:id="@+id/persentase_pembangunan"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_progress"
+                android:text="15%"
+                android:textColor="@color/red"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/keterangan_pembangunan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:gravity="top"
+            android:text="Suramadu adalah jembatan yang menghubungkan pulau madura dan pulau jawa"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/update_pembangunan"
+            android:layout_width="170dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="20dp"
+            android:drawableLeft="@drawable/ic_calendar"
+            android:gravity="top"
+            android:text="updated on november 10"
+            android:textColor="@color/darkgrey" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+

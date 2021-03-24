@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/template1"
+    tools:context="com.example.user.smartvillage.Activity.dashboard_user.lapor.LaporFragment">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingLeft="20dp"
+                android:paddingEnd="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/judul_lapor"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Judul Pembangunan :"
+                    android:textSize="20dp"
+                    android:inputType="text"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/spList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp">
+                </Spinner>
+
+            </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Laporkan Masalah :"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/deskripsi_lapor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:background="#BFFFFFFF"
+            android:inputType="text"
+            android:minHeight="225dp" />
+
+
+
+            <Button
+                android:id="@+id/button_lapor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:background="@drawable/bgbutton"
+                android:text="SUBMIT LAPOR"
+                android:textColor="@color/gold" />
+
+    </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    tools:context="com.example.user.smartvillage.Activity.HelpActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FAQs"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bagaimana cara melihat list dari pembangunan?"
+            android:textSize="18dp"
+            android:layout_margin="15dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/black"
+            android:background="@color/abu"
+
+            android:text=" > Dapat anda lakukan dengan cara memilih tab paling kiri." />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apa saja yang apat saya lihat di list pembangunan?"
+            android:textSize="18dp"
+            android:layout_margin="15dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/black"
+            android:background="@color/abu"
+            android:text=" > Anda dapat melihat Nama Pembangunan, mitra yang bekerjasama dalam pembangunan tersebut, gambar progres saat ini dapri pembangunan, tangga mulai dan tanggal target selesai dari pembangunan, persentase terselesaikannya pembangunan, dan deskripsi dari pembangunan" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bagaimana cara saya dapat memberikan request pembangunan yang perlu dilakukan?"
+            android:textSize="18dp"
+            android:layout_margin="15dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/black"
+            android:background="@color/abu"
+            android:text=" > Dapat anda lakukan dengan cara memilih tab yang berada di tengah. Disini anda perlu mengitputkan judul dari pembangunan yang anda request kan dan juga memberikan deskripsi dari pembangunan yang anda request tersebut." />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bagaimana cara melihat profile?"
+            android:textSize="18dp"
+            android:layout_margin="15dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/black"
+            android:background="@color/abu"
+            android:text=" > Dapat anda lakukan dengan cara memilih tab yang paling kanan." />
+
+
+</LinearLayout>
